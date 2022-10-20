@@ -1,0 +1,38 @@
+.product{
+    display: flex;
+    background-color: whitesmoke;
+    color: #616161;
+
+    .productContainer{
+        flex: 6;
+        background-color: whitesmoke;
+        color: #616161;
+
+        .productList{
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+            padding: 20px;
+            margin: 20px;
+
+            .datatableTitle{
+                width: 100%;
+                font-size: 24px;
+                color: #616161;
+                margin-bottom: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+        
+                .link{
+                    color: green;
+                    font-size: 16px;
+                    font-weight: 400;
+                    border: 1px solid green;
+                    padding: 5px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

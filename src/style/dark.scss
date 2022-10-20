@@ -1,0 +1,120 @@
+.app.dark{
+    background-color: #111;
+    color: rgb(156,156,156);
+
+    .navbar{
+        background-color: #111;
+        color: #999;
+        border-color: #333;
+
+        .search{
+            border-color: #616161;
+
+            input{
+                color: #999;
+            }
+        }
+    }
+
+    .sidebar{
+        background-color: #111;
+        border-color: #333;
+
+        .top{
+            .logo{
+                color: #999;
+            }
+        }
+        ul{
+            li{
+                &:hover{
+                    background-color: #333;
+                }
+
+                .icon{
+                    color: #999;
+                }
+            }
+        }
+    }
+
+    .home{
+        background-color: #111;
+        color: #999;
+
+        .homeContainer{
+            background-color: #111;
+            color: #999;
+        }
+    }
+
+    .list{
+        background-color: #111;
+        color: #999;
+
+        .tableCell{
+            background-color: #111;
+            color: #999;
+
+            span{
+                background-color: #111;
+                color: #999;
+                border: 1px dashed #999;
+            }
+        }
+    }
+
+    .single{
+        background-color: #111;
+        color: #999;
+    }
+
+    .new{
+        background-color: #111;
+        color: #999;
+        .right{
+            form{
+                .formInput{
+                    input{
+                        color: #999;
+                    }
+                }
+                button{
+                    background-color: #999;
+                    color: #111;
+                }
+            }
+        }
+    }
+ 
+    .productContainer{
+        background-color: #111;
+        .productList{
+            background-color: #111;
+            color: #999;
+
+            .tableCell{
+                background-color: #111;
+                color: #999;
+            }
+        }
+    }
+
+    .datatable{
+        background-color: #111;
+        color: #999;
+
+        .datagrid{
+            color: gray;
+            border: none;
+
+            .viewButton, .deleteButton{
+                color: gray;
+                border: 1px dashed #999
+            }
+        }
+    }
+
+
+
+}
